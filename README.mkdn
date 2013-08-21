@@ -126,6 +126,11 @@ Build the Code:
 
     make otaupdate
 
+Or
+
+    . build/envsetip.sh && lunch liquid_shadow-userdebug && make otapackage
+
+(If you're lazy and brunch doesn't work :P )
 
 Submitting Patches
 ------------------
